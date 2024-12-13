@@ -13,18 +13,18 @@ class MySet:
             set_list.append(str(key))
         return f'MySet: {{{",".join(set_list)}}}'
 
-     def add(self, value):
+    def add(self, value):
         self.dictionary[value] = True # Add a value as a key on the hash
         return self
 
-     def delete(self, value):
+    def delete(self, value):
         self.dictionary.pop(value, None)
         return self
 
-     def size(self):
+    def size(self):
         return len(self.dictionary)
 
-     def clear(self):
+    def clear(self):
         self.dictionary.clear()
 
-     pass
+    pass

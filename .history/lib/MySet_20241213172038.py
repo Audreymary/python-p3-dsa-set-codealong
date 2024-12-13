@@ -21,10 +21,10 @@ class MySet:
         self.dictionary.pop(value, None)
         return self
 
-     def size(self):
+    def size(self):
         return len(self.dictionary)
 
-     def clear(self):
+    def clear(self):
         self.dictionary.clear()
 
-     pass
+    pass

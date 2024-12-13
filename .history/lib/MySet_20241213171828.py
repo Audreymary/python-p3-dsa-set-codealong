@@ -1,0 +1,3 @@
+class MySet:
+
+    pass
